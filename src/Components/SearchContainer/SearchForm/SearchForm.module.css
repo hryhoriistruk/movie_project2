@@ -1,0 +1,38 @@
+.myForm {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myForm input {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-right: 20px;
+    transition: 0.5s;
+
+}
+.myForm button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: #e65100;
+    background-color: #ffffff;
+    border: none;
+    transition: 0.5s;
+}
+
+.myForm button:hover {
+    scale: 110%;
+}

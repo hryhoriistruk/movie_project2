@@ -1,0 +1,13 @@
+.genre {
+    padding: 0;
+    color: #e65100;
+    margin: 0 10px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.genre:hover {
+    color: #faaf00;
+    cursor: pointer;
+    scale: 110%;
+}
